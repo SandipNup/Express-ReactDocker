@@ -7,7 +7,7 @@ before_install:
 
 
 script:
-  - docker run sandip_nup/react-test npm test -- --coverage
+  - docker run sandip_nup/react-test npm run test -- --coverage
 
 
 after_success:
